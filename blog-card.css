@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&family=Inter:wght@400;600;700&family=Nunito:wght@400;600;700&family=Poppins:wght@600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --shadow-color: 286deg 36% 56%;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F3FBFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+/* img {
+    width: 100%;
+} */
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    /* box-shadow: 0.8px 0.8px 1.3px hsl(var(--shadow-color) / 0.36),
+    2.6px 2.5px 4.1px -0.8px hsl(var(--shadow-color) / 0.36),
+    6.4px 6.4px 10.2px -1.7px hsl(var(--shadow-color) / 0.36),
+    15.5px 15.5px 24.7px -2.5px hsl(var(--shadow-color) / 0.36); */
+}
+.card:hover {
+cursor: pointer;
+box-shadow: 0.8px 0.8px 1.3px hsl(var(--shadow-color) / 0.36),
+    2.6px 2.5px 4.1px -0.8px hsl(var(--shadow-color) / 0.36),
+    6.4px 6.4px 10.2px -1.7px hsl(var(--shadow-color) / 0.36),
+    15.5px 15.5px 24.7px -2.5px hsl(var(--shadow-color) / 0.36);
+}
+.card-header img {
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-body {
+    padding: 15px;
+    min-height: 200px;
+}
+.card-body h3 {
+    margin: 12px 0px;
+}
+.card-body p {
+    font-size: 13px;
+    margin-bottom: 36px;
+}
+.user {
+    display: flex;
+}
+.pill {
+    padding: 2px 3px;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.pill-teal {
+background-color: #51ADC4;
+}
+.pill-purple {
+background-color: #8b5cf6;
+}
+.pill-pink {
+background-color: #ec4899;
+}
+.user img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 12px;
+}
+.user-info small {
+    color: #6c6c6a;
+}
+.last {
+    margin-top: 78px;
+}
